@@ -35,7 +35,8 @@ body{
     width: 100%;
     background-color: #033c57;
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: 540;
 }
 .active-person{
     background: #11a7ec;
@@ -64,46 +65,45 @@ body{
     height:fit-content;
     overflow-y: scroll;
 }
-#first-person{
-    display: flex;
-    justify-content: start;
-}
-#second-person{
-    display: flex;
-    justify-content: end;
-}
 .chat-messages::-webkit-scrollbar{
     display: none;
 }
 .message{
-    max-width: 80%;
+    max-width: 90%;
     padding: 0.4rem;
     border-radius: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
 }
 .message-sender{
-    font-weight: bold;
+    font-size: 1.1rem;
+    font-weight: 550;
     margin-bottom: 0.3rem;
+    color: #ecebf0;
 }
 .message-text{
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-bottom: 0.3rem;
     word-wrap: break-word;
 }
 .message-timestamp{
-    font-size: 0.7rem;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 0.8rem;
     text-align: right;
 }
 .blue-bg{
-    background-color:#437fcce1;
-    width: fit-content;
+    background-color: #11a7ec;
+    width: 70%;
+    max-width: fit-content;
 
 }
 .gray-bg{
-    background-color: #465274;
-    width: fit-content;
+    background-color: #033c57;
+    width: 70%;
+    max-width: fit-content;
 
 }
 .chat-input-form{
